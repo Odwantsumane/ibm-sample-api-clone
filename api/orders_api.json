@@ -311,8 +311,8 @@
                             "properties": {
                                 "order_number": {
                                     "title": "Order Number",
-                                    "type": "string",
-                                    "example": "ORD00989792"
+                                    "type": "String",
+                                    "example": "12"
                                 },
                                 "tracking_status": {
                                     "title": "Tracking Status",
@@ -332,8 +332,8 @@
                                     "title": "Order Status",
                                     "type": "string",
                                     "enum": [
-                                        "SHIPPED",
                                         "PICKED",
+                                        "SHIPPED",
                                         "PENDING",
                                         "DELIVERED"
                                     ]
