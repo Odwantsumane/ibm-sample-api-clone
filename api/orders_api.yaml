@@ -244,8 +244,8 @@ paths:
                 title: Order Status
                 type: string
                 enum:
-                  - SHIPPED
                   - PICKED
+                  - SHIPPED
                   - PENDING
                   - DELIVERED
               tracking_reference:
